@@ -1,0 +1,85 @@
+/* General body styling */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* Container for the summary */
+  .summary-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Header styling */
+  .summary-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3b3b3b;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the individual details container */
+  .summary-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  /* Individual summary item */
+  .summary-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: #f9fafb;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect on each summary item */
+  .summary-item:hover {
+    border-color: #a7a7a7;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styling (titles) */
+  .summary-item .label {
+    font-weight: 600;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Value styling (information) */
+  .summary-item .value {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 400;
+    word-break: break-word;
+  }
+  
+  /* Adjustments for small screen sizes (responsive design) */
+  @media (max-width: 768px) {
+    .summary-details {
+      grid-template-columns: 1fr;
+    }
+  
+    .summary-item {
+      padding: 12px;
+    }
+  
+    .summary-heading {
+      font-size: 2rem;
+    }
+  }
+  

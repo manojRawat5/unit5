@@ -1,0 +1,91 @@
+/* Header Section Styling */
+.header-container {
+  background-image: url('homePage-poster2.jpg'); /* Add your image path here */
+  background-size: contain; /* Ensures the image covers the section */
+ 
+  color: white;
+  padding: 60px 0px;
+  text-align: center;
+  width:100%;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+
+
+/* Heading and Paragraph Styling */
+.header-container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+  color: white;
+}
+
+.header-container h1:hover {
+  transform: translateY(-10px); /* Slightly raise the heading when hovered */
+}
+
+.header-container p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-style: italic;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.header-container p:hover {
+  color: #ffcc00; /* Change text color on hover */
+}
+
+.hero-container{
+  width: 98.9%;
+}
+
+/* Add Hover Effect to the Hero Section */
+.hero-container:hover {
+  transform: scale(1.03); /* Slightly enlarge the section on hover */
+}
+
+/* Heading and Paragraph Styling */
+.hero-container h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.hero-container h2:hover {
+  transform: translateY(-10px); /* Slightly raise the heading when hovered */
+}
+
+.hero-container p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.hero-container p:hover {
+  color: #ffcc00; /* Change text color on hover */
+}
+
+/* Button Styling */
+.hero-container button {
+  padding: 15px 30px;
+  width: fit-content;
+  margin: auto;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Added transform transition */
+}
+
+.hero-container button:hover {
+  background-color: #45a049;
+  transform: translateY(-5px); /* Raise button when hovered */
+}
+
+.hero-container button:active {
+  transform: translateY(2px); /* Slightly press down the button when clicked */
+}

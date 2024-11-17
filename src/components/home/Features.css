@@ -1,0 +1,86 @@
+/* Features Section Styling */
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    flex-wrap: wrap; /* Ensures the cards wrap on smaller screens */
+    background: linear-gradient(135deg, #ffe9d0, #bbd4ff);
+    
+  }
+  
+  /* Feature Card Styling */
+  .feature-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: black;
+    
+  }
+  
+  .feature-card p {
+    font-size: 1.2rem;
+    color: black;
+   
+  }
+
+
+  #feature-card1{
+    background-image: url("ooty-place.jpg");
+    background-size:cover;
+  
+    color: black;
+
+  }
+  #feature-card2{
+    background-image: url("manali_place.jpg");
+    background-size: cover;
+    
+    
+    color: rgb(0, 0, 0);
+
+  }
+  #feature-card3{
+    
+    background-image: url("goa_place.jpg");
+    background-size: cover;
+    
+    color: black;
+
+  }
+  
+
+
+
+
+
+  /* Hover Effect for Cards */
+  .feature-card:hover {
+    transform: translateY(-10px); /* Slightly lifts the card */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .features-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-card {
+      width: 80%;
+      margin: 15px 0;
+    }
+  }
+  

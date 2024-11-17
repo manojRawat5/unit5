@@ -1,0 +1,105 @@
+/* Contact Section Styling */
+.contact-container {
+  padding: 60px 0px;
+  text-align: center;
+  background-color: #f4f4f9; /* Light background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ffe9d0, #bbd4ff);
+  width: 100%;
+  
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Form Styling */
+.contact-form {
+  max-width: 500px;  /* Smaller form */
+  margin: 0 auto;
+  background-color: #d4efea;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus effects for inputs */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none;
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Slight button scaling effect */
+}
+
+.submit-btn:active {
+  transform: scale(0.98); /* Slight shrinking effect on click */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 40px 15px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.9rem;
+  }
+}
